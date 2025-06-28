@@ -5,6 +5,7 @@ btn.addEventListener("click",function(){
     let randomcolor = rndColor();
 
     heading.innerText = randomcolor;
+    heading.style.color = randomColor;
 
     let div = document.querySelector("div");
     div.style.backgroundColor = randomcolor;
@@ -16,6 +17,6 @@ function rndColor(){
     let g = Math.floor(Math.random() * 256);
     let b = Math.floor(Math.random() * 256);
 
-    let color = `rgb ${r},${g},${b}`;
+    let color = `rgb(${r},${g},${b})`;
     return color;
 }
