@@ -10,15 +10,12 @@ btn.addEventListener("click", function(){
     let del = document.createElement("button");
     del.innerText = "Delete";
     del.classList.add("delete");
+    
+    del.addEventListener("click", function(){
+        li.remove(); 
+        console.log("item deleted!");
+    });
 
     li.appendChild(del);
-    console.log(input.value);
     input.value = "";
-})
-
-let delBtns = document.querySelectorAll(".delete");
-for(delBtn of delBtns ){
-    delBtn.addEventListener("click", function(){
-        console.log("intem deleted!");
-    })
-}
+});
