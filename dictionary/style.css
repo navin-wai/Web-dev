@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #83a4d4, #b6fbff);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+input {
+    padding: 12px 20px;
+    width: 250px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    outline: none;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    transform: scale(1.05);
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #0077ff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #005dd1;
+    transform: scale(1.05);
+}
+
+h2, h3 {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 600px;
+    width: 100%;
+    white-space: pre-wrap;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+#play-audio {
+    background-color: #28a745;
+}
+
+#play-audio:hover {
+    background-color: #1e7e34;
+}
+
+@media (max-width: 600px) {
+    input, button {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
