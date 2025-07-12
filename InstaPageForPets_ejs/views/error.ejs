@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error Page</title>
+</head>
+<body>
+    <h1>This page doesn't exist!</h1>
+    <h3>Try visiting pages like:</h3>
+    <ul>
+        <% for(let id of names) { %>
+            <li><a href="/ig/<%= id %>"><%= id %></a></li>
+        <% } %>
+    </ul>
+</body>
+</html>

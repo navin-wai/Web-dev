@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <style>
+        *{
+            margin : 5;
+            padding : 1;
+        }
+        body{
+            background-color: rgb(101, 81, 190);
+        }
+        img{
+            height: 200px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is an instagram page for <%= data.name %> </h1>
+    <p>Followers = <%= data.followers%> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    Following = <%= data.following%></p>
+    
+    <hr>
+    
+    <% for(post of data.posts) { %>
+        <img src="<%=post.image%>" alt="post not available">
+        <p>Likes = <%=post.like%> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        Comments = <%=post.comments%></p>
+    <% } %>
+</body>
+</html>
+

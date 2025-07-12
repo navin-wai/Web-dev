@@ -1,0 +1,95 @@
+{
+  "cats": {
+    "name": "cats",
+    "followers": 25000,
+    "following": 5,
+    "posts": [
+      {
+        "image": "https://images.unsplash.com/photo-1592194996308-7b43878e84a6?auto=format&fit=crop&w=400&h=400",
+        "likes": 200,
+        "comments": 17
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1595433562696-19c561d1685e?auto=format&fit=crop&w=400&h=400",
+        "likes": 312,
+        "comments": 19
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1603318005802-6ee0f9d9a4c2?auto=format&fit=crop&w=400&h=400",
+        "likes": 1065,
+        "comments": 200
+      }
+    ]
+  },
+  "dogs": {
+    "name": "dogs",
+    "followers": 18000,
+    "following": 12,
+    "posts": [
+      {
+        "image": "https://images.unsplash.com/photo-1601758123927-1966c3c5f2c2?auto=format&fit=crop&w=400&h=400",
+        "likes": 980,
+        "comments": 53
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1558788353-f76d92427f16?auto=format&fit=crop&w=400&h=400",
+        "likes": 1220,
+        "comments": 89
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1601758003122-58e5f18dd0d5?auto=format&fit=crop&w=400&h=400",
+        "likes": 1105,
+        "comments": 60
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1537151672256-80a2bda9c58c?auto=format&fit=crop&w=400&h=400",
+        "likes": 1342,
+        "comments": 112
+      }
+    ]
+  },
+  "parrots": {
+    "name": "parrots",
+    "followers": 8500,
+    "following": 3,
+    "posts": [
+      {
+        "image": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=400&h=400",
+        "likes": 420,
+        "comments": 35
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1603052875295-2bd5f6d9cc86?auto=format&fit=crop&w=400&h=400",
+        "likes": 580,
+        "comments": 48
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1623365572353-3850f8fd0e3e?auto=format&fit=crop&w=400&h=400",
+        "likes": 612,
+        "comments": 41
+      }
+    ]
+  },
+  "rabbits": {
+    "name": "rabbits",
+    "followers": 9700,
+    "following": 4,
+    "posts": [
+      {
+        "image": "https://images.unsplash.com/photo-1587740896339-6cc269d9c379?auto=format&fit=crop&w=400&h=400",
+        "likes": 865,
+        "comments": 39
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1584697964403-c61c8f1c5d00?auto=format&fit=crop&w=400&h=400",
+        "likes": 910,
+        "comments": 60
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1601720984479-26dba5c8328f?auto=format&fit=crop&w=400&h=400",
+        "likes": 1024,
+        "comments": 84
+      }
+    ]
+  }
+}
